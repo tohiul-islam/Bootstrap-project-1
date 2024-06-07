@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+/*
+? defol style rimob ;
+*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;;
+    background-color:#FAFAFA; ;
+}
+
+.text_width{
+    font-weight: 700;
+    line-height: 76.8px;
+    font-size: 64px ;
+}
+.text_decoration{
+    text-decoration: underline;
+    size: 100px;
+}
+
+/**
+*? wevyar  style ::-webkit-scrollbar{}
+ওয়েবের পিচার যোদি  পালটাতেছাই তাহলে  য্নতেহবে 
+**/
+::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+}
+::-webkit-scrollbar-thumb{
+background-color: #F44335;
+}
+
+/**
+*! link teg style 
+**/
+
+a{
+    border-radius: 8px;
+    color: #20484F;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+a:hover{
+    background-color: #042121;
+    color: red;
+    }
+    a:focus{
+        color: wheat;
+        background-color: #20484F;
+}
